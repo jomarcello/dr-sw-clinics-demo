@@ -57,7 +57,7 @@ export const practiceConfigs: Record<string, PracticeConfig> = {
     },
     
     voice: {
-      firstMessage: 'Thank you for calling Dr SW Clinics! This is Robin, your cosmetic treatment assistant. How can I help you today?'
+      firstMessage: 'Thank you for calling Dr SW Clinics! This is Robin, your cosmetic treatment assistant. I can help you schedule appointments with Dr Sherif Wakil for non-surgical cosmetic treatments. How can I help you today?'
     },
     
     services: [
