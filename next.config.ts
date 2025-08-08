@@ -15,10 +15,7 @@ const nextConfig: NextConfig = {
   generateBuildId: async () => {
     return `build-${Date.now()}-css-fix`
   },
-  // Force static optimization to include all Tailwind classes
-  experimental: {
-    optimizeCss: true,
-  },
+  // Remove problematic optimizeCss that causes Railway build failures
   // Ensure all CSS is generated for production
   productionBrowserSourceMaps: false,
   poweredByHeader: false,
