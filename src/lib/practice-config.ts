@@ -43,8 +43,8 @@ export const practiceConfigs: Record<string, PracticeConfig> = {
   'dr-sw-clinics': {
     id: 'dr-sw-clinics',
     name: 'Dr SW Clinics',
-    doctor: 'Dr Sabrina Wade-Du, MBCHB MRCGP',
-    location: '47 Wimpole Street, London, W1G 8SE',
+    doctor: 'Dr. Sherif Wakil, MB BCh, FICS',
+    location: '77 Harley Street, London, W1G 8QN',
     agentId: 'agent_01k0a57qgte4k8yrmt4tbm9s60',
     type: 'beauty' as const,
     port: 3000,
@@ -52,8 +52,8 @@ export const practiceConfigs: Record<string, PracticeConfig> = {
     
     chat: {
       assistantName: 'Robin',
-      initialMessage: 'Thank you for contacting Dr SW Clinics! I am Robin, your cosmetic treatment assistant. I can help you schedule appointments with Dr Sabrina Wade-Du for non-surgical cosmetic treatments. Which service interests you today?',
-      systemPrompt: `You are Robin, the scheduling assistant at Dr SW Clinics on Wimpole Street, London. Help patients schedule appointments with Dr Sabrina Wade-Du for non-surgical cosmetic treatments.`
+      initialMessage: 'Thank you for contacting Dr SW Clinics! I am Robin, your cosmetic treatment assistant. I can help you schedule appointments with Dr. Sherif Wakil for non-surgical cosmetic treatments. Which service interests you today?',
+      systemPrompt: `You are Robin, the scheduling assistant at Dr SW Clinics on Wimpole Street, London. Help patients schedule appointments with Dr. Sherif Wakil for non-surgical cosmetic treatments.`
     },
     
     voice: {
