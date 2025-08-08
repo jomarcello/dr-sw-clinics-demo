@@ -542,7 +542,7 @@ export default function VoiceDemo() {
                   <Sparkles className="w-4 h-4" />
                 )}
                 <span className="text-sm font-medium">
-                  {agentMode === 'listening' ? 'Listening...' : 'Robin is speaking'}
+                  {agentMode === 'listening' ? 'Listening...' : `${practiceConfig.chat.assistantName} is speaking`}
                 </span>
               </div>
             </div>
@@ -581,7 +581,7 @@ export default function VoiceDemo() {
         {/* Available Services Preview */}
         <div className="mt-8 pt-8 border-t border-gray-200">
           <h3 className="text-xl font-semibold text-gray-900 mb-4 text-center">
-            Robin Knows About These Services
+            {practiceConfig.chat.assistantName} Knows About These Services
           </h3>
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
             {practiceConfig.services.map((service, index) => (
@@ -610,7 +610,7 @@ export default function VoiceDemo() {
             </li>
             <li className="flex items-start gap-2">
               <CheckCircle className="w-4 h-4 text-green-500 mt-0.5 flex-shrink-0" />
-              <span>Robin will respond with voice and text about {practiceConfig.doctor}'s {practiceConfig.type} services</span>
+              <span>{practiceConfig.chat.assistantName} will respond with voice and text about {practiceConfig.doctor}'s {practiceConfig.type} services</span>
             </li>
           </ul>
         </div>
