@@ -43,7 +43,7 @@ export const practiceConfigs: Record<string, PracticeConfig> = {
   'dr-sw-clinics': {
     id: 'dr-sw-clinics',
     name: 'Dr SW Clinics',
-    doctor: 'Dr. Sherif Wakil, MB BCh, FICS',
+    doctor: 'Dr Sherif Wakil',
     location: '77 Harley Street, London, W1G 8QN',
     agentId: 'agent_01k0a57qgte4k8yrmt4tbm9s60',
     type: 'beauty' as const,
