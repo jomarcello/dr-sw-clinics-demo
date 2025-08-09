@@ -426,13 +426,13 @@ export default function Home() {
               <div className="flex flex-col sm:flex-row items-center gap-6">
                 <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full overflow-hidden bg-white/20 flex-shrink-0">
                   <img 
-                    src="@railway-mcp/IMG_0463.jpg" 
+                    src="@urailway-mcp/IMG_0463.jpg" 
                     alt="Pierre Björlin"
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="text-center sm:text-left flex-1">
-                  <h3 className="text-xl sm:text-2xl font-bold mb-2">Meet Your Implementation Specialist</h3>
+                  <h3 className="text-xl sm:text-2xl font-bold mb-2">Meet Your Consultant</h3>
                   <p className="text-lg mb-1"><strong>Pierre Björlin</strong></p>
                   <p className="text-white/80 text-sm">AI Consultant</p>
                 </div>
