@@ -400,23 +400,13 @@ export default function Home() {
         <div className="max-w-4xl mx-auto text-center text-white px-4 sm:px-6">
           <div className="mb-6">
             <h2 className="text-3xl sm:text-4xl font-bold mb-4">
-              Ready to Install Robin at {practiceConfig.name}?
+              Interested in AI Solutions for {practiceConfig.name}?
             </h2>
             <p className="text-xl sm:text-2xl mb-2 text-white/95">
               You've seen how Robin handles patient calls perfectly
             </p>
             <p className="text-lg text-white/80 mb-8">
-              Let's get this AI assistant working on your practice's phone line within 48 hours
-            </p>
-          </div>
-          
-          <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 mb-8 max-w-2xl mx-auto">
-            <div className="flex items-center justify-center gap-2 mb-3">
-              <CheckCircle className="w-5 h-5" />
-              <span className="font-semibold text-lg">Implementation Guarantee</span>
-            </div>
-            <p className="text-white/90">
-              "Your AI assistant will be live and taking patient calls within 48 hours, or you don't pay a penny."
+              Let's explore how AI can help transform your practice's patient experience
             </p>
           </div>
 
