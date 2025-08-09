@@ -45,7 +45,7 @@ export const practiceConfigs: Record<string, PracticeConfig> = {
     name: 'Dr SW Clinics',
     doctor: 'Dr Sherif Wakil',
     location: '77 Harley Street, London, W1G 8QN',
-    agentId: 'agent_8701k274fyy8es2apt85rfp0hzpp', // Dr SW Clinics - Dr Sherif Wakil (REAL)
+    agentId: 'agent_1701k275311qem2v9rt4gnqtymd4', // Dr SW Clinics - Dr Sherif Wakil (WORKING)
     type: 'beauty' as const,
     port: 3000,
     subdomain: 'dr-sw-clinics',
