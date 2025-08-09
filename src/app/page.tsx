@@ -420,20 +420,22 @@ export default function Home() {
             </p>
           </div>
 
-          {/* Pierre Björlin CTA Section */}
-          <div className="mb-8 max-w-2xl mx-auto">
-            <div className="flex flex-col sm:flex-row items-center gap-6 bg-white/10 backdrop-blur-sm rounded-2xl p-6">
-              <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full overflow-hidden bg-white/20 flex-shrink-0">
-                <img 
-                  src="/pierre-profile.jpg" 
-                  alt="Pierre Björlin"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="text-center sm:text-left flex-1">
-                <h3 className="text-xl sm:text-2xl font-bold mb-2">Book Your Free Discovery Call</h3>
-                <p className="text-lg mb-1">with <strong>Pierre Björlin</strong></p>
-                <p className="text-white/80 text-sm">Healthcare AI Implementation Specialist</p>
+          {/* Pierre Björlin CTA Card */}
+          <div className="mb-8">
+            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 max-w-2xl mx-auto">
+              <div className="flex flex-col sm:flex-row items-center gap-6">
+                <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full overflow-hidden bg-white/20 flex-shrink-0">
+                  <img 
+                    src="@railway-mcp/IMG_0463.jpg" 
+                    alt="Pierre Björlin"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="text-center sm:text-left flex-1">
+                  <h3 className="text-xl sm:text-2xl font-bold mb-2">Meet Your Implementation Specialist</h3>
+                  <p className="text-lg mb-1"><strong>Pierre Björlin</strong></p>
+                  <p className="text-white/80 text-sm">AI Consultant</p>
+                </div>
               </div>
             </div>
           </div>
@@ -446,7 +448,7 @@ export default function Home() {
               className="inline-flex items-center gap-3 bg-white text-gray-900 px-8 py-4 rounded-xl font-bold text-xl hover:bg-gray-100 transition-all duration-200 shadow-xl hover:shadow-2xl hover:scale-105"
             >
               <Calendar className="w-6 h-6" />
-              Free Discovery Call with Pierre
+              Book Your Free Discovery Call
             </a>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 text-sm text-white/80">
               <span className="flex items-center gap-2">
