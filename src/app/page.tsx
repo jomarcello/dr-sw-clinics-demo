@@ -416,7 +416,7 @@ export default function Home() {
               <div className="flex flex-col sm:flex-row items-center gap-6">
                 <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full overflow-hidden bg-white/20 flex-shrink-0">
                   <img 
-                    src="@urailway-mcp/IMG_0463.jpg" 
+                    src="https://i.imgur.com/KH0CTYl.jpg" 
                     alt="Pierre Björlin"
                     className="w-full h-full object-cover"
                   />
